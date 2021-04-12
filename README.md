@@ -3,6 +3,7 @@ Assets for Star Wars: Legion maps on Tabletop Simulator - made with Blender and 
 
 Credit Tieren and Co. for developing the original Star Wars: Legion mod for Tabletop Simulator
 
+![dev](https://github.com/TheMindVirus/legion/blob/main/city/dev.png)
 
 [Placeholder City: https://steamcommunity.com/sharedfiles/filedetails/?id=2454940842](https://steamcommunity.com/sharedfiles/filedetails/?id=2454940842)
 ![city](https://github.com/TheMindVirus/legion/blob/main/city/cover.png)

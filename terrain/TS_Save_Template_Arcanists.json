@@ -1,0 +1,313 @@
+{
+  "SaveName": "ArcanistsTerrain",
+  "EpochTime": 1667022557,
+  "Date": "10/29/2022 6:49:17 AM",
+  "VersionNumber": "v13.2.2",
+  "GameMode": "Custom",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "MusicPlayer": {
+    "RepeatSong": false,
+    "PlaylistEntry": 0,
+    "CurrentAudioTitle": "Arcanists - Spellbound",
+    "CurrentAudioURL": "http://cloud-3.steamusercontent.com/ugc/1901108810536688107/40C615F449D101C6201CE9C748EC489A17521D90/",
+    "AudioLibrary": [
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/1901108810536688107/40C615F449D101C6201CE9C748EC489A17521D90/",
+        "Item2": "Arcanists - Spellbound"
+      }
+    ]
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": [
+      {
+        "displayed": "Table",
+        "normalized": "table"
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "5d8651",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -0.101573922,
+        "posY": 5.121517,
+        "posZ": 0.225578308,
+        "rotX": -5.63456069E-07,
+        "rotY": 359.97818,
+        "rotZ": 8.51497E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Waterboard",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.5019608
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/1901108810536695535/A4470AF8A6CBCD5276C97FA1D634CB6100950931/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b4f474",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 17.2625027,
+        "posY": 3.62026548,
+        "posZ": 20.8611774,
+        "rotX": 5.54983126E-06,
+        "rotY": 300.0127,
+        "rotZ": 2.82607834E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Arcanist",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/1901108810536698657/3830F23C0F58BC3E709E7615B212214221CCFB4E/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "bb5204",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 13.2536259,
+        "posY": 3.62026548,
+        "posZ": 20.1819744,
+        "rotX": 6.119767E-06,
+        "rotY": 59.99005,
+        "rotZ": -2.64451887E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Thor",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/1901108810536700000/9BCCC273068C9CA41B205A04ED6C58642FF5E35F/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9c0d84",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -34.9216461,
+        "posY": 7.121521,
+        "posZ": -17.7812881,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Origin",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/1901108810536706523/63A566DA4EB448AA68203CA6860D9B6FA7357A97/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
